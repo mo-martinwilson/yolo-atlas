@@ -5,7 +5,9 @@ description = "Travel the world like Atlas"
 authors = [
     {name = "mo-martinwilson", email = "martin.wilson@metoffice.gov.uk"},
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.4",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
